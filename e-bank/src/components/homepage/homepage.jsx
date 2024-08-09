@@ -1,7 +1,7 @@
 import React from "react"
 import "./homepage.css"
 
-const Homepage = ({ setLoginUser }) => {
+const Homepage = () => {
     return (
         <div>
             <div className="homepage">
@@ -25,15 +25,8 @@ const Homepage = ({ setLoginUser }) => {
                         <a href="logout" class="logout-link text-white">Logout</a>
                     </div>
                 </div>
-
-
-
             </div>
-
-
-
         </div>
     )
 }
-
 export default Homepage

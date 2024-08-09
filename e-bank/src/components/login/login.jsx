@@ -1,35 +1,9 @@
-// import React, {useState} from "react"
 import "./login.css"
-// import axios from "axios"
 import { useNavigate } from "react-router-dom"
 import { useReducer, useState } from "react";
 import { AuthData } from "../../authenticator/AuthWrapper";
 
 export const Login = ({ setLoginUser }) => {
-
-    // const history = useNavigate()
-
-    // const [ user, setUser] = useState({
-    //     email:"",
-    //     password:""
-    // })
-
-    // const handleChange = e => {
-    //     const { name, value } = e.target
-    //     setUser({
-    //         ...user,
-    //         [name]: value
-    //     })
-    // }
-
-    // const login = () => {
-    //     axios.post("http://localhost:9002/login", user)
-    //     .then(res => {
-    //         alert(res.data.message)
-    //         setLoginUser(res.data.user)
-    //         Navigate.push("/")
-    //     })
-    // }
 
     const navigate = useNavigate();
     const { login } = AuthData();
@@ -46,18 +20,8 @@ export const Login = ({ setLoginUser }) => {
         } catch (error) {
 
             setErrorMessage(error)
-
         }
-
     }
-
-
-
-
-
-
-
-
     return (
         <div>
         <div className="login">
