@@ -3,9 +3,7 @@ import React from 'react'
 export const Header = () => {
     return (
         <div>
-
             {/* header */}
-
             <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-primary">
                 <div class="container-fluid">
                     <a className="navbar-brand" href="/">e-Bank</a>
@@ -37,9 +35,6 @@ export const Header = () => {
                     </div>
                 </div>
             </nav>
-
-
-
         </div>
     )
 }

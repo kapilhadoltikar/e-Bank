@@ -1,7 +1,7 @@
 import React from "react"
 import "./faqs.css"
 
-const Faqs = ({ setLoginUser }) => {
+const Faqs = () => {
     return (
         <div>
             <div className="faqs">

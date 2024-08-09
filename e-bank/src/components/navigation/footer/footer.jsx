@@ -4,9 +4,6 @@ import React from 'react'
 export const Footer = () => {
     return (
         <div>
-
-
-
             <nav class="navbar navbar-expand-sm fixed-bottom navbar-dark bg-primary">
                 <div class="container-fluid">
 
@@ -23,9 +20,6 @@ export const Footer = () => {
                     </div>
                 </div>
             </nav>
-
-
-
         </div>
     )
 }

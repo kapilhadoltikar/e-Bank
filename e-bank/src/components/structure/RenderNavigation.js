@@ -2,11 +2,9 @@ import { Link, Route, Routes } from "react-router-dom";
 import { AuthData } from "../../authenticator/AuthWrapper";
 import { nav } from "./navigation";
 
-// RenderRoutes dictate according to its privacy values in nav 
-export const RenderRoutes = () => {   
 
+export const RenderRoutes = () => {   
         const { user } = AuthData();
-        
         return (
              <Routes>
              { nav.map((r, i) => {
@@ -21,7 +19,6 @@ export const RenderRoutes = () => {
              </Routes>
         )
    }
-   
    export const RenderMenu = () => {
    
         const { user, logout } = AuthData()
@@ -32,7 +29,6 @@ export const RenderRoutes = () => {
              )
         }
         return (
-          //  if page setting in nav isMenu then this page will show on the navigation meun
              <div className="menu">
                   { nav.map((r, i) => {
    

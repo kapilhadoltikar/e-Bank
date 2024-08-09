@@ -21,12 +21,8 @@ const Aboutus = ({ setLoginUser }) => {
                         <a href="logout" class="logout-link text-white">Logout</a>
                     </div>
                 </div>
-
-
-
             </div>
         </div>
     )
 }
-
 export default Aboutus
