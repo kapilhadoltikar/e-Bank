@@ -1,0 +1,29 @@
+
+.card {
+    width: 80rem;
+    height: 22rem;
+}
+
+.card-body {
+    /* background-color: #002080; */
+}
+
+.card-title {
+    padding: 10px;
+}
+
+.card-subtitle {
+    padding: 10px;
+}
+
+.card-text {
+    padding: 10px;
+}
+
+.home-link {
+    padding: 10px;
+}
+
+.logout-link {
+    padding: 10px;
+}
